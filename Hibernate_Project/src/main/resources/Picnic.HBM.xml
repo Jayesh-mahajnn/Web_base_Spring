@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<!DOCTYPE hibernate-mapping PUBLIC 
+"-//Hibernate/Hibernate Mapping DTD//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+    <class name = "example.hibernate.entity.Picnic" table = "Picnic_Master">
+        <id name="picnicId" type="int" column = "picnic_id"/>
+        <property name="location" type="string" column="picnic_loc"></property>
+         <property name="date" type="string" column="picnic_date"></property>
+          <property name="headCount" type="int" column="picnic_head_count"></property>   
+    </class>
+</hibernate-mapping>
